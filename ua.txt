@@ -995,6 +995,17 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/50.0.125 Chrome/44.0.2403.125 Safari/537.36
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
-Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; MAARJS; rv:11.0) like Gecko
-Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N900T Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36
-Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/7.0.55539 Mobile/12H143 Safari/600
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/7.0.55539 Mobile/12H143 Safari/600.1.4
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 likeMac OS X) AppleWebKit/133.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143Safari/133.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (compatible; Baiduspider/2.0;+http://www.baidu.com/search/spider.html£©
+AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari
+Mozilla/5.0 (compatible; bingbot/6.0; +http://www.bing.com/bingbot.htm)
+Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/369.36 (KHTML, like Gecko) Mobile Safari/584.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 likeMac OS X) AppleWebKit/275.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143Safari/123.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (compatible; Baiduspider/7.0;+http://www.baidu.com/search/spider.html£©
+AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 6 1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari
+Mozilla/5.0 (compatible; bingbot/3.0; +http://www.bing.com/bingbot.htm)
+Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/147.36 (KHTML, like Gecko) Mobile Safari/480.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 likeMac OS X) AppleWebKit/597.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143Safari/599.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (compatible; Baiduspider/9.0;+http://www.baidu.com/search/spider.html£©
+AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html)
